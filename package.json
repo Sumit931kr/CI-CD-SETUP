@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/index",
+    "dev": "node dist/index.js --dev"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.0.1",
+    "nodemailer": "^6.10.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/nodemailer": "^6.4.17"
+  }
+}
